@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Wed Jul 23 15:38:24 2025
-
+Created on Wed Jul 20 15:38:24 2025
 @author: jayant
 """
 
 import streamlit as st
 import streamlit.components.v1 as components
 from rdkit import Chem
-from rdkit.Chem import Draw, Descriptors, AllChem, DataStructs
+from rdkit.Chem import Descriptors, AllChem, DataStructs
+from rdkit.Chem import Draw
 import py3Dmol
 import pandas as pd
 import os
