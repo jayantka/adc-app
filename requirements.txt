@@ -2,4 +2,4 @@ streamlit
 pandas
 py3Dmol
 Pillow
-rdkit==2022.9.5
+rdkit
